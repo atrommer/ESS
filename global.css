@@ -1,0 +1,110 @@
+/* $Id: global.css,v 1.5 2005/01/29 10:26:40 atrommer Exp $ */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-style: normal;
+	color: #666666;
+	background-color: #FFFFCC;
+	text-align: center;
+	background-position: center bottom;
+
+
+}
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #0066FF;
+}
+.errorMsg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-weight: bold;
+	color: #FF0000;
+}
+.nav {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #0066FF;
+	background-color: #000066;
+	list-style-type: square;
+}
+.evenRow {
+	background-color: #CCCCCC;
+}
+
+.empAvail{
+	background-color: green;
+}
+
+.empNotAvail{
+	background-color: red;
+}
+
+select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #0066FF;
+}
+a:link {
+	text-decoration: none;
+	color: #0099FF;
+
+}
+a:visited {
+	text-decoration: none;
+	color: #0099FF;
+
+}
+a:hover {
+	text-decoration: none;
+	color: #0099FF;
+	background-color: #0000CC;
+
+}
+a:active {
+	text-decoration: none;
+	color: #0099FF;
+
+}
+hr {
+	width: 50%;
+	border: 1px solid #333333;
+	text-align: left;
+	background-position: left;
+
+}
+.contactInfo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+	background-color: #CCCCCC;
+}
+.contactInfoName {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #000000;
+	background-color: #CCCCCC;
+	font-weight: bold;
+}
+.availDetail {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+}
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: thin solid #0066FF;
+} 

@@ -1,0 +1,39 @@
+Employee Scheduling System - 1.1
+http://www.sf.net/projects/ess
+
+We don't have a fancy installer yet, so please ensure you meet the requirements and follow the install steps.
+
+Things it does (well, things we *claim* it does):
+	- Allows for ad-hoc scheduling of employees
+	- Event descriptions are editable using a WYSIWYG interface
+	- Employees can have multiple supervisors, and can work in multiple areas
+	- Extensive scheduling support for multiple areas and multiple positions per area
+	- Allows for a weekly basic schedule, and blackout dates for time off requests
+	- Allows for supervisors to override availibilities
+	- Acts as a single contact point for employees and supervisors for not only scheduling, but also contact data.
+	- Allow mass emailing to employees with updated schedules, etc
+
+What it will do (hopefully):
+	- Event costing for future quotes
+	- Tie into a cvs output for payroll purposes
+
+Requirements:
+	-PHP5  w/PEAR::DB
+	-Apache 1.3.x (2.x should work, not tested)
+	-MySQL 4.1.x
+	
+Installation:
+	1. Untar in a directory readable by Apache
+	2. Create a new database in MySQL
+	3. Run the ess.sql script against that new DB
+	4. Update common.php with your username, password, and db name for that DB
+	5. Update common.php with the path to your installation (Apache, not system)
+	6. Edit dbsetup.php with your initial user.  This will be the site admin.
+	7. Launch a browser and navigate to your $SITEROOT/dbsetup.php page.
+		If it works, your site is good to go!
+	8. If not...well...you did something wrong :).  Send me a message or post your setup to the tracker.
+	9. Make a directory called images, and dump in any 700x100px image as header.gif for your header image.
+	
+Help/Troubleshooting:
+	- Please post all issues and RFE's to the site hosted on SourceForge.
+	- Additionally, you can contact me at atrommer@gmail.com
