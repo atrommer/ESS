@@ -7,7 +7,7 @@
 --
 -- Table structure for table `areas`
 --
-
+SET FOREIGN_KEY_CHECKS = 0;
 CREATE TABLE areas (
   area_id int(11) unsigned NOT NULL auto_increment,
   area_name varchar(20) default NULL,
@@ -151,3 +151,4 @@ CREATE TABLE users (
   CONSTRAINT users_ibfk_1 FOREIGN KEY (user_type) REFERENCES `types` (type_id) ON DELETE NO ACTION ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+SET FOREIGN_KEY_CHECKS = 1;
